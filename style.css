@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+* {
+  background: #f5f5f5;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: rebeccapurple;
+  opacity: 0.6;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
+
+#form {
+  /* border: 1px solid black; */
+  width: 250px;
+  margin: 5rem auto 0;
+}
+
+.input {
+  margin: 0 0 1.5rem 0;
+  display: block;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  /* overflow: hidden; */
+  box-shadow: 0 0 10px 2px #ccc;
+}
+
+.input::placeholder {
+  text-align: center;
+  color: #b5b5b5;
+}
+
+#list {
+  /* margin: 0 0 0 15px; */
+  overflow-wrap: break-word;
+  /* width: 100%; */
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  text-overflow: hidden;
+  padding: 0.2rem;
+  /* background: white; */
+  margin-top: 0.5rem;
+  /* margin-bottom: 2rem; */
+  text-align: center;
+  color: #5e5e5e;
+  cursor: pointer;
+}
+
+li.completed {
+  color: #b5b5b5;
+  text-decoration: line-through;
+  background: rgb(201, 243, 219);
+  border-radius: 15px;
+}
+
+small:nth-of-type(2) {
+  text-align: center;
+  display: block;
+  margin-top: 5px;
+  color: #d5d5d5;
+}
+
+small {
+  text-align: center;
+  display: block;
+  margin-top: 1rem;
+  color: #d5d5d5;
+}
